@@ -1,6 +1,9 @@
 {
   "name": "express-locallibrary-tutorial",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
@@ -16,6 +19,7 @@
     "express-async-handler": "^1.2.0",
     "express-rate-limit": "^6.9.0",
     "express-validator": "^7.0.1",
+    "gitignore": "^0.7.0",
     "helmet": "^7.0.0",
     "http-errors": "~1.6.3",
     "luxon": "^3.4.0",
